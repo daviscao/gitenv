@@ -1,0 +1,11 @@
+方法有两种：
+
+方法一：在网页上添加
+	1、在新建文件的时候通过使用“/”来添加目录。如/dir/file则表示新建一个名为dir的目录，同时新建一个file文件。
+
+方法二：在github for windows上添加
+	1、在github的workspace中相应的repository下手动创建好目录和文件
+	2、接着右键打开git shell命令行
+	3、使用git add dir/files的方式添加文件，如果提示失败请用带-f 参数来添加文件
+	4、添加完成之后使用git commit添加说明。输入上面的git commit之后会直接打开你操作系统默认的文本编辑器，输入你的更新说明，关闭文本编辑器之后会动提交更新说明
+	5、接着使用git push 来提交我们刚刚的修改
